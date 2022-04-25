@@ -1,0 +1,63 @@
+html{
+    min-height: 100%;
+    scroll-behavior: smooth;
+}
+#backdrop{
+    z-index: -1;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    background-image: linear-gradient(45deg, rgb(135, 14, 14), rgb(7, 7, 168) , #d4af37  );
+    background-size: 150% 150%;
+    animation: BackgroundGradient 30s ease infinite;
+    filter:saturate(110%);
+    filter:brightness(0.5);
+}
+
+h1{
+    color:#d4af37;
+    font-family: monoton;
+    font-weight: 100;
+    font-size:5vw;
+    text-align: center;
+    text-shadow: 0 0 20px #fad044;
+    padding-top:30vh;
+}
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }
+  #hero{
+      height:100vh;
+  }
+  #release{
+      height: 100vh;
+      background-image: linear-gradient(45deg, rgb(9, 9, 27) 0%, #020260 100% );
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  #release h2{
+      z-index: 1;
+      color:rgb(255, 255, 255);
+      text-align:center;
+      font-family:comfortaa;
+      font-size:3vw;
+      padding:15vh;
+  }
+  #up{
+      width:20vw;
+      border-radius:10px;
+  }
+
+
+
+
+
+
+
+
