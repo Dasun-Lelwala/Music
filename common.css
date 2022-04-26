@@ -7,15 +7,15 @@
 /*---------------------------NAV BAR-----------------------------------------*/
 nav{
     z-index: 999;
-    padding:5px;
     background-color: rgba(28, 28, 28, 0.333);
     display:flex;
     align-items: center;
     position: fixed;
+    justify-content: space-between;
     width: 100%;
 }
 #logo{
-    width:70px;
+    width:5.1vw;
     padding:0 1.2vw;
 }
 #menu{
@@ -44,9 +44,11 @@ nav{
     border-color: rgba(200, 60, 14, 0.642);
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0.285), rgba(0, 140, 255, 0.116));
 }
-
-
-
+.icon{
+    margin-right:0.3vw;
+    padding:0.3vw;
+    width:1.8vw;
+}
 
 /*-----------------------------FOOTER-----------------------------------------------------*/
 
