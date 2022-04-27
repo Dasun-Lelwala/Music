@@ -22,7 +22,7 @@
             <ul id="menu">
                 <li class="menu-link"><a href="#hero">Home</a></li>
                 <li class="menu-link"><a href="#release">Releases</a></li>
-                <li class="menu-link"><a href="Contact/contact.html">Contact</a></li>
+                <li class="menu-link"><a href="#contact">Contact</a></li>
             </ul>
             <div id="social">
                 <a href="https://www.instagram.com/dasunlelwala" target="_blank"><img src="Images/Insta.png" alt="Instagram" class="icon"></a>
@@ -31,8 +31,8 @@
         </nav>
     </header>
    <main>
-       <div id="backdrop"></div>
        <section id="hero">
+        <div id="backdrop"></div>
         <h1>Dasun Lelwala</h1>
         <h3>Stream On</h3>
         <div id="links">
@@ -46,6 +46,24 @@
            <h2>Coming soon!</h2>
            <img src="Images/upcoming.jpg" alt="radiance" id="up">
             </div>
+            <div id="embed">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2va4SmyjkGZbYvVAo9e14p?utm_source=generator&theme=0" width="60%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+       </section>
+       <section id="contact">
+        <div id = "box">
+            <h1 id='title'>Contact Us</h1>
+            <form action="https://formsubmit.co/dasunlelwala@gmail.com" method="POST" id="form">
+                <input type="text" name="name" placeholder="Name" required id="name" class="field">
+                <input type="email" name="email" placeholder="Email" required id="email" class="field">
+                <textarea placeholder="Your Message" id="msg" name="message" rows="10" required class="field"></textarea>
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_captcha" value="false">
+                <!--<input type="hidden" name="_next" value='https://dasun-lelwala.github.io/Music/index.html#contact'> -->
+                <input type="hidden" name="_subject" value="Messege from your website">
+                <button type="submit">Send</button>
+           </form>
+        </div>
        </section>
        
    </main>
