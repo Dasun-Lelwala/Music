@@ -53,8 +53,58 @@ nav{
 /*-----------------------------FOOTER-----------------------------------------------------*/
 
 footer{
+    background-color: #111;
+    padding:2vh 2vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#copyright{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 10;
+    font-size:0.8vw;
+    text-align:right;
+    position: relative;
+    bottom:0;
+    right:0;
     background-color: black;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding:0.5vh 2vw;
+}
+#about{
+    width:20vw;
+    color:white;
+    text-align:left;
+    padding:0 3vw;
+    text-align: left;
+    border-right:solid 2px white;
+}
+#about h2{
+    font-family:arial;
+    font-size:1.2vw;
+}
+#about p{
+    font-family:comfortaa;
+    font-size:0.9vw;
+}
+#mail{
+    color:white;
+    font-size:1vw;
+    font-family:montserrat;
+    font-weight: 100;
+}
+#contacts{
+    width:fit-content;
+    padding:0 3vw;
+}
+#social-foot {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#social-foot li{
+    display:inline-block;
+}
+#social-foot img{
+    width:1.3vw;
 }
