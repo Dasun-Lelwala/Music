@@ -39,9 +39,7 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     font-size:1.4vw;
 }
-#menu svg{
-    display:none;
-}
+
 .menu-link:hover{
     transform:scale(110%);
     border-color: rgba(200, 60, 14, 0.642);
@@ -110,7 +108,7 @@ footer{
     display:inline-block;
 }
 #social-foot svg{
-    width:1.3vw;
+    width:1.5vw;
     fill:white;
 }
 
