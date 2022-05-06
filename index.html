@@ -25,7 +25,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="nav">
             <img id="logo" src="Images/logo.png" alt="logo">
             <ul id="menu">
                 <li class="menu-link"><a href="#hero">Home</a></li>
@@ -101,4 +101,16 @@
    <p id="copyright">copyright ©2022 Dasun Lelwala</p>
    
 </body>
+<script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("nav").style.top = "0";
+      } else {
+        document.getElementById("nav").style.top = "-80px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+    </script>
 </html>

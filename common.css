@@ -13,6 +13,7 @@ nav{
     position: fixed;
     justify-content: space-between;
     width: 100%;
+    transition:500ms;
 }
 #logo{
     width:5.1vw;
