@@ -10,6 +10,7 @@ html{
     right:0px;
     bottom:0px;
     left:0px;
+    min-height: 100vh;
     background-image: linear-gradient(45deg, rgba(135, 14, 14, 0.800), rgb(7, 7, 168, 0.800) , rgb(212, 175, 55, 0.800)  ), url("Images/squares.png");
     background-size: 150% 150%;
     animation: BackgroundGradient 20s infinite;
@@ -40,7 +41,7 @@ html{
     100% {background-position: 0% 50%;}
   }
 #hero{
-    height:100vh;
+    height: 100vh;
     display:flex;
     align-items: center;
     flex-direction: column;
@@ -86,7 +87,6 @@ html{
 }
 #spotify{
     width:10vw;
-    /*border:solid 2px white;*/
     border-radius: 10px;
     padding:0.5vw;
     transition: 500ms;
